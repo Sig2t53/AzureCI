@@ -5,6 +5,10 @@
 
 trigger:
 - master
+- hotfix/*
+- develop
+- release
+- feature/*
 
 pool:
   vmImage: 'windows-latest'
