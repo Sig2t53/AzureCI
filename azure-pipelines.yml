@@ -39,3 +39,9 @@ steps:
     scannerMode: 'MSBuild'
     projectKey: 'AzureCi'
     projectName: 'AzureCI'
+
+- task: SonarCloudAnalyze@1
+
+- task: SonarCloudPublish@1
+  inputs:
+    pollingTimeoutSec: '300'
