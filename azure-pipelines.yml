@@ -40,6 +40,12 @@ steps:
     scannerMode: 'MSBuild'
     projectKey: 'AzureCi'
     projectName: 'AzureCI'
+- task: SonarCloudPrepare@1
+  inputs:
+    SonarCloud: 'sonarcloud'
+    organization: 'seigo-test-ci'
+    scannerMode: 'MSBuild'
+    projectKey: 'sample-CSharpProject'
 
 - task: SonarCloudAnalyze@1
 
