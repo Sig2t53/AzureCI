@@ -27,13 +27,13 @@ steps:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
 
-- task: SonarCloudPrepare@1
-  inputs:
-    SonarCloud: 'Seigo''s SonarCloud'
-    organization: 'test-seigo-sample'
-    scannerMode: 'MSBuild'
-    projectKey: 'AzureCi'
-    projectName: 'AzureCI'
+#- task: SonarCloudPrepare@1
+#  inputs:
+#    SonarCloud: 'Seigo''s SonarCloud'
+#    organization: 'test-seigo-sample'
+#    scannerMode: 'MSBuild'
+#    projectKey: 'AzureCi'
+#    projectName: 'AzureCI'
 - task: SonarCloudPrepare@1
   inputs:
     SonarCloud: 'sonarcloud'
