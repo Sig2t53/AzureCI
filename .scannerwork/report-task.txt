@@ -1,0 +1,7 @@
+organization=sig2t53
+projectKey=Sig2t53_AzureCI
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.3533
+dashboardUrl=https://sonarcloud.io/dashboard?id=Sig2t53_AzureCI
+ceTaskId=AW8U4_DFBkFdpHog5Mjm
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AW8U4_DFBkFdpHog5Mjm
