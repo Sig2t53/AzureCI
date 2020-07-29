@@ -15,7 +15,7 @@ namespace AzureCI.App
 
         public static void DuplicateMethod()
         {
-            Console.WriteLine( "重複しています");
+            Console.WriteLine( "重複しています")
             return;
         }
 
