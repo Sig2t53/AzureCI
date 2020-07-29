@@ -18,11 +18,6 @@ namespace AzureCI.App
             Console.WriteLine( "重複しています");
             return;
         }
-        public static void DuplicateMethod2()
-        {
-            Console.WriteLine("重複しています");
-            return;
-        }
 
         public static void complexMethod()
         {
